@@ -1,0 +1,87 @@
+.App {
+  background-image: url("./assets/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  background-color: white;
+  margin-bottom: 150px;
+}
+
+label {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 1.2rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+select {
+  padding: 10px;
+  font-size: 1.2rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+button {
+  padding: 15px;
+  font-size: 1.2rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.output {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 90%;
+}
+.nooutput {
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  color: white;
+}
