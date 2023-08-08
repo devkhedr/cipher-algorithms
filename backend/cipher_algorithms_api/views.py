@@ -2,14 +2,14 @@ from django.shortcuts import render
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
-from .shift_cipher import ShiftCipher
-from .monoalphabetic_cipher import MonoalphabeticCipher
-from .affine_cipher import AffineCipher
-from .substitution_cipher import SubstitutionCipher
-from .playfair_cipher import PlayfairCipher
-from .vigenere_cipher import VigenereCipher
-from .rail_fence_cipher import RailFenceCipher
-from .row_transposition_cipher import RowTranspositionCipher
+from .algorithms.shift_cipher import ShiftCipher
+from .algorithms.monoalphabetic_cipher import MonoalphabeticCipher
+from .algorithms.affine_cipher import AffineCipher
+from .algorithms.substitution_cipher import SubstitutionCipher
+from .algorithms.playfair_cipher import PlayfairCipher
+from .algorithms.vigenere_cipher import VigenereCipher
+from .algorithms.rail_fence_cipher import RailFenceCipher
+from .algorithms.row_transposition_cipher import RowTranspositionCipher
 
 
 # Create your views here.
